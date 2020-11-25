@@ -1,0 +1,163 @@
+.container{
+    align-self: center; 
+}
+
+.topLine{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.right-logo{
+    display: inline;
+}
+
+.right-Side{
+    display: inline;
+    padding: 25px;
+    
+}
+.searhBar{
+    margin: 25px;
+}
+.menuBar{
+    margin-top: 25px;
+    margin-right: 45px;
+    border: none;
+}
+
+.topMenu{
+    padding: 16px 20px;
+    border: none;
+
+    background-color: #f1f1f1;
+}
+
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  .blue-Menu-Bar{
+      background-color: blue;
+      display: inline-block;
+      position: relative;
+      
+      width: 100%;
+  }
+
+  .sub-Menu{
+      width: 100%;
+      text-align: justify;
+  }
+
+  .MenuRow {
+      display: inline-block;
+      width: 14%;
+      margin:15px;
+  }
+
+.secondRow{
+    position: relative;
+}
+.First-Text{
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    border-radius: 3px;
+    border: black 3px;
+    font-weight: bold;
+    color: #000000
+}
+
+.left-Text{
+    background-color: #ffffff;
+    border: black, 3px;
+}
+
+input[type=button]{
+    background-color: blue;
+    color: white;
+    border: #000000;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.third-row{
+    display: flex;
+    margin: 45px;
+}
+
+.left-third{
+    position: relative;
+    width: 350px;
+}
+
+.right-third{
+    position: relative;
+    margin: 45px;
+    width: 350px;
+}
+
+.line{
+    width: 1000px;
+    border-bottom: 6px solid yellow;
+    position: relative;
+    }
+
+.forth-Line{
+    display: flex;
+    position: relative;
+}
+.centerText{
+    align-content: center;
+}
+.right-four{
+    position: relative;
+}
+.left-four{
+    position: relative;
+}
+.rouded-Square{
+    border-radius: 15px;
+    border: #000000;
+    height: 200px;
+    width: 350px;
+    margin: 25px;
+    text-align: center;
+    padding: 27px 27px 27px 27px;
+}
+/*  FONT SYTLES */
+
+.blueFont{
+    color: blue;
+}
+
+.whiteFont{
+    background:blue;
+    color: white;
+}
+
+h1{
+    color: blue;
+}
